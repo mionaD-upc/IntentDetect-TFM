@@ -1,0 +1,38 @@
+# Evaluation of gpt-3.5-turbo 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.93      0.93      0.93        15
+association rules       1.00      0.87      0.93        15
+ causal inference       0.93      0.87      0.90        15
+   classification       0.70      0.93      0.80        15
+       clustering       1.00      0.93      0.97        15
+      correlation       0.68      0.87      0.76        15
+   data profiling       0.89      0.53      0.67        15
+      forecasting       0.71      1.00      0.83        15
+       regression       1.00      0.67      0.80        15
+
+         accuracy                           0.84       135
+        macro avg       0.87      0.84      0.84       135
+     weighted avg       0.87      0.84      0.84       135
+
+## Execution time: 0:02:02.078508 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Unknown count: 1
+Unknown count FORCED: 0
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Obtaining predictions for class: classification
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+given the large number of possible labels and the nature of the text features, a deep learning model such as a long short-term memory (lstm) network or a transformer model like bert may be suitable for this task. these models have the ability to learn complex patterns and relationships within text data and can handle large amounts of data efficiently. 
+
+before training the model, you may need to preprocess the text features by converting them into numerical representations using techniques like word embedding or tf-idf. once the text features are processed, you can train the model to predict the labels for the test set.
+
+it's also important to evaluate the performance of the model using metrics like accuracy, precision, recall, and f1-score to ensure that it is effectively predicting the labels. additionally, you may need to fine-tune the model and adjust hyperparameters to optimize its performance.
+
+overall, using a deep learning model for this task can help you effectively classify the text features into the provided classes and make accurate predictions for the test set.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------

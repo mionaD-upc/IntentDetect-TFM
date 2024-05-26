@@ -1,0 +1,15 @@
+# Evaluation of gpt-4o 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       1.00      0.85      0.92        20
+   classification       0.62      1.00      0.77        20
+       clustering       1.00      0.60      0.75        20
+      forecasting       0.95      1.00      0.98        20
+       regression       1.00      0.90      0.95        20
+
+         accuracy                           0.87       100
+        macro avg       0.92      0.87      0.87       100
+     weighted avg       0.92      0.87      0.87       100
+
+## Execution time: 0:01:53.506617 
