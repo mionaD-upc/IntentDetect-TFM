@@ -1,0 +1,9 @@
+flask
+openai
+llamaapi
+python-dotenv
+seaborn
+graphviz
+matplotlib
+numpy
+pandas
