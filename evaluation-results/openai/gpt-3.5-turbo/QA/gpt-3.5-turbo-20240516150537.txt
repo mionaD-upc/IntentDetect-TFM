@@ -1,0 +1,36 @@
+# Evaluation of gpt-3.5-turbo 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.95      0.95      0.95        20
+   classification       0.79      0.95      0.86        20
+       clustering       1.00      1.00      1.00        20
+      correlation       1.00      1.00      1.00        20
+      forecasting       0.90      0.95      0.93        20
+       regression       0.93      0.70      0.80        20
+
+         accuracy                           0.93       120
+        macro avg       0.93      0.92      0.92       120
+     weighted avg       0.93      0.93      0.92       120
+
+## Execution time: 0:01:57.742089 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Unknown count: 1
+Unknown count FORCED: 0
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Obtaining predictions for class: classification
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+one approach you could consider is using recurrent neural networks (rnns) or transformers, which are designed to capture sequential dependencies in text data. specifically, you could use models like lstm (long short-term memory) or gru (gated recurrent unit) for analyzing the sequential nature of sentences in paragraphs.
+
+another technique you could explore is using attention mechanisms, which allow models to focus on specific parts of the input text while making predictions. this can help capture the relationships between sentences in a paragraph.
+
+additionally, you may want to look into pre-trained language models like bert (bidirectional encoder representations from transformers) or gpt (generative pre-trained transformer) models, which have been shown to achieve state-of-the-art performance on various nlp tasks.
+
+lastly, you could also consider ensemble methods, where you combine multiple models to improve prediction accuracy. this could involve training different models using different algorithms or hyperparameters and aggregating their predictions.
+
+overall, experimenting with a combination of these techniques and fine-tuning them on your dataset may help you achieve better prediction performance for classifying sentences in paragraphs. good luck with your project!
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------

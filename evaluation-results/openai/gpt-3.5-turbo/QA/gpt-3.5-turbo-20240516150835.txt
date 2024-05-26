@@ -1,0 +1,45 @@
+# Evaluation of gpt-3.5-turbo 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.90      0.95      0.93        20
+   classification       0.81      0.85      0.83        20
+       clustering       1.00      0.95      0.97        20
+      correlation       1.00      1.00      1.00        20
+      forecasting       0.87      1.00      0.93        20
+       regression       0.94      0.75      0.83        20
+
+         accuracy                           0.92       120
+        macro avg       0.92      0.92      0.92       120
+     weighted avg       0.92      0.92      0.92       120
+
+## Execution time: 0:01:59.462776 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Unknown count: 2
+Unknown count FORCED: 0
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Obtaining predictions for class: classification
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+if you encounter data that does not belong to any of the three classes you defined, you can handle this by assigning it to a default or "other" class. in this case, you can add an additional class label such as "other" or "unknown" to the list of classes. this way, when making predictions, if the data does not match any of the three classes, it can be classified into this default class. this approach allows you to still make predictions for all data points while handling outliers or misclassified data appropriately.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+one approach you could consider is using a recurrent neural network (rnn) or a long short-term memory (lstm) network. these types of models are well-suited for sequential data like paragraphs where the context of the previous sentences is important for making predictions on the current sentence.
+
+another technique you could explore is transformer-based models like bert (bidirectional encoder representations from transformers) or gpt (generative pre-trained transformer). these models are also designed to capture dependencies in sequential data and have been shown to be effective for various natural language processing tasks.
+
+additionally, you may want to look into techniques like attention mechanisms, which can help the model focus on relevant parts of the input sequence when making predictions.
+
+it might also be helpful to consider incorporating pre-trained word embeddings like word2vec or glove to capture semantic relationships between words and help the model learn from the text data more effectively.
+
+lastly, you could explore ensemble learning techniques, which combine multiple models to improve prediction accuracy and robustness.
+
+i hope these suggestions help, and good luck with your model building process! let me know if you have any further questions or need more guidance.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------

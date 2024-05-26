@@ -1,0 +1,16 @@
+# Evaluation of gpt-4-turbo 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.89      0.85      0.87        20
+   classification       0.40      0.85      0.54        20
+       clustering       0.94      0.75      0.83        20
+      correlation       1.00      0.75      0.86        20
+      forecasting       1.00      0.55      0.71        20
+       regression       0.88      0.70      0.78        20
+
+         accuracy                           0.74       120
+        macro avg       0.85      0.74      0.76       120
+     weighted avg       0.85      0.74      0.76       120
+
+## Execution time: 0:05:44.717945 

@@ -1,0 +1,30 @@
+# Evaluation of gpt-3.5-turbo 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.90      0.95      0.93        20
+   classification       0.81      0.85      0.83        20
+       clustering       1.00      1.00      1.00        20
+      correlation       1.00      1.00      1.00        20
+      forecasting       0.91      1.00      0.95        20
+       regression       0.94      0.75      0.83        20
+
+         accuracy                           0.93       120
+        macro avg       0.93      0.92      0.92       120
+     weighted avg       0.93      0.93      0.92       120
+
+## Execution time: 0:01:57.248307 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Unknown count: 1
+Unknown count FORCED: 0
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Obtaining predictions for class: classification
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+one approach to deal with this problem is to create an additional class label for data that does not belong to any of the three classes. this way, when making predictions, the svm model can classify the text as belonging to this new class label if it does not fit into any of the original three classes.
+
+alternatively, you could also consider re-evaluating your feature selection and model training process to see if there are any improvements that can be made to better classify the unknown data. this may involve retraining the svm model with a larger and more diverse dataset, fine-tuning hyperparameters, or considering different techniques for text preprocessing and feature extraction.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------

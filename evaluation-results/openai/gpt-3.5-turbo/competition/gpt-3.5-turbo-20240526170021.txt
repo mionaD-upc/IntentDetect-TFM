@@ -1,0 +1,15 @@
+# Evaluation of gpt-3.5-turbo 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       1.00      0.95      0.97        20
+   classification       0.70      0.95      0.81        20
+       clustering       1.00      0.75      0.86        20
+      forecasting       0.87      1.00      0.93        20
+       regression       1.00      0.80      0.89        20
+
+         accuracy                           0.89       100
+        macro avg       0.91      0.89      0.89       100
+     weighted avg       0.91      0.89      0.89       100
+
+## Execution time: 0:01:13.868212 
