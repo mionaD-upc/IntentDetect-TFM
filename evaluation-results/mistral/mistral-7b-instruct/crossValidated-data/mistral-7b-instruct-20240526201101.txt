@@ -1,0 +1,47 @@
+# Evaluation of mistral-7b-instruct 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.83      1.00      0.91        15
+association rules       0.82      0.93      0.88        15
+ causal inference       0.93      0.87      0.90        15
+   classification       0.70      0.47      0.56        15
+       clustering       0.92      0.80      0.86        15
+      correlation       0.65      0.73      0.69        15
+   data profiling       0.80      0.53      0.64        15
+      forecasting       0.60      1.00      0.75        15
+       regression       0.55      0.40      0.46        15
+
+         accuracy                           0.75       135
+        macro avg       0.76      0.75      0.74       135
+     weighted avg       0.76      0.75      0.74       135
+
+## Execution time: 0:08:49.834793 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Unknown count: 3
+Unknown count FORCED: 0
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Obtaining predictions for class: data profiling
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+This text falls into the category of "hypothesis test for distribution equality", which is not explicitly listed in your options, but it can be considered a type of "statistical inference" or "comparison of distributions". Therefore, the closest match would be "hypothesis testing" or "comparison of distributions". However, for the specific question, the non-parametric statistical tests that could be used for checking whether the underlying distributions of two groups are different include the Mann-Whitney U test, the Wilcoxon Rank Sum test, or the Kruskal-Wallis H test, depending on the number of groups being compared. These tests are also known as "non-parametric hypothesis tests" or "distribution-free hypothesis tests".
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+["statistical inference"]
+
+The text is about statistical inference, specifically computing a credible interval for a posterior distribution. This is not directly related to the other mentioned data science topics.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Obtaining predictions for class: association rules
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+associations rules (Affinity analysis is a method used to discover associations or relationships between different items in a dataset.)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------

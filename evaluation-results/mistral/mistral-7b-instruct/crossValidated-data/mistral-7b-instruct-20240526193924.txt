@@ -1,0 +1,36 @@
+# Evaluation of mistral-7b-instruct 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.81      0.87      0.84        15
+association rules       0.92      0.80      0.86        15
+ causal inference       0.93      0.87      0.90        15
+   classification       0.60      0.60      0.60        15
+       clustering       0.85      0.73      0.79        15
+      correlation       0.65      0.73      0.69        15
+   data profiling       0.69      0.60      0.64        15
+      forecasting       0.54      0.93      0.68        15
+       regression       0.75      0.40      0.52        15
+
+         accuracy                           0.73       135
+        macro avg       0.75      0.73      0.72       135
+     weighted avg       0.75      0.73      0.72       135
+
+## Execution time: 0:09:18.986232 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Unknown count: 2
+Unknown count FORCED: 0
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Obtaining predictions for class: data profiling
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+based on the text provided, it appears that the user is asking for a statistical method to determine the third quartile (Q3) when the data is not fully distributed and the last interval contains more than 25% of the population. This is a situation where the standard formula for calculating quartiles cannot be directly applied because the last interval is open and includes a significant portion of the population. This problem falls under the category of "statistical analysis" or "descriptive statistics" and more specifically, "percentiles and quartiles". Therefore, the class for this text would be "percentiles and quartiles".
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+This text falls into the category of "hypothesis testing" or "comparing distributions", specifically "non-parametric statistical tests". However, since the text mentions the use of a non-parametric statistical test for comparing distributions, I would classify it as "hypothesis testing" or more specifically, "non-parametric statistical tests". Some common non-parametric tests for comparing distributions include the Mann-Whitney U test, the Wilcoxon Rank Sum test, and the Kruskal-Wallis H test.

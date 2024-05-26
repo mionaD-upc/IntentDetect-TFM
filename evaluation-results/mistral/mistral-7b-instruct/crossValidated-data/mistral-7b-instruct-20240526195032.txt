@@ -1,0 +1,33 @@
+# Evaluation of mistral-7b-instruct 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.82      0.93      0.88        15
+association rules       0.82      0.60      0.69        15
+ causal inference       0.93      0.93      0.93        15
+   classification       0.50      0.47      0.48        15
+       clustering       0.92      0.80      0.86        15
+      correlation       0.65      0.73      0.69        15
+   data profiling       0.67      0.67      0.67        15
+      forecasting       0.54      0.93      0.68        15
+       regression       0.86      0.40      0.55        15
+
+         accuracy                           0.72       135
+        macro avg       0.75      0.72      0.71       135
+     weighted avg       0.75      0.72      0.71       135
+
+## Execution time: 0:07:58.853463 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Unknown count: 1
+Unknown count FORCED: 0
+
+Obtaining predictions for class: data profiling
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+The text falls into the class "hypothesis testing" or more specifically, "non-parametric hypothesis testing". However, since the text mentions specifically the 5-number summary and sample size, I would classify it as "non-parametric statistical testing". Therefore, the correct answer is "non-parametric statistical testing" or "non-parametric hypothesis testing".
+
+The text asks about a statistical test that can be used to compare two distributions without assuming a specific form for those distributions. The Mann-Whitney U test, also known as the Wilcoxon rank-sum test, and the Kruskal-Wallis H test are examples of non-parametric statistical tests that can be used for this purpose. These tests do not make assumptions about the underlying distribution of the data and can be used when the data is not normally distributed or when the sample size is small.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------

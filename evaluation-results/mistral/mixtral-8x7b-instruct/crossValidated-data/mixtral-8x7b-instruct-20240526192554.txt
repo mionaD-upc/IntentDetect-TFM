@@ -1,0 +1,19 @@
+# Evaluation of mixtral-8x7b-instruct 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.79      0.73      0.76        15
+association rules       0.85      0.73      0.79        15
+ causal inference       0.87      0.87      0.87        15
+   classification       0.60      0.80      0.69        15
+       clustering       1.00      0.67      0.80        15
+      correlation       0.67      0.80      0.73        15
+   data profiling       0.67      0.67      0.67        15
+      forecasting       0.79      0.73      0.76        15
+       regression       0.69      0.73      0.71        15
+
+         accuracy                           0.75       135
+        macro avg       0.77      0.75      0.75       135
+     weighted avg       0.77      0.75      0.75       135
+
+## Execution time: 0:18:29.852340 

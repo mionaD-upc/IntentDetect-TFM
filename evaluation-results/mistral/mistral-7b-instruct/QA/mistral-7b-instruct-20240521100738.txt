@@ -1,0 +1,18 @@
+# Evaluation of mistral-7b-instruct 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.75      0.90      0.82        20
+   classification       0.47      0.75      0.58        20
+       clustering       1.00      0.80      0.89        20
+      correlation       0.94      0.75      0.83        20
+      forecasting       0.89      0.85      0.87        20
+       regression       0.92      0.60      0.73        20
+
+         accuracy                           0.78       120
+        macro avg       0.83      0.77      0.79       120
+     weighted avg       0.83      0.78      0.79       120
+
+## Execution time: 0:11:09.270198 
+Unknown count: 2
+Unknown count FORCED: 0

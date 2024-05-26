@@ -1,0 +1,36 @@
+# Evaluation of mixtral-8x7b-instruct 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.85      0.85      0.85        20
+   classification       0.58      0.70      0.64        20
+       clustering       1.00      0.95      0.97        20
+      correlation       0.94      0.80      0.86        20
+      forecasting       0.94      0.85      0.89        20
+       regression       0.77      0.85      0.81        20
+
+         accuracy                           0.83       120
+        macro avg       0.85      0.83      0.84       120
+     weighted avg       0.85      0.83      0.84       120
+
+## Execution time: 0:15:00.858509 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Obtaining predictions for class: classification
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+In your text prediction task using SVM, if you encounter data that does not belong to any of the three classes you've trained your model on, this is known as an anomaly or outlier detection problem. 
+
+One common approach to handle this is to introduce a new class, often referred to as the "unknown" or "other" class. You would train your SVM model to recognize this new class in addition to your existing three classes. 
+
+When making predictions, if the data does not strongly correspond to any of your defined classes, it will be classified into this "unknown" class. 
+
+However, it's important to note that the performance of this approach depends on the quality and quantity of the data you have for the "unknown" class. If the "unknown" data is too different from your training data, the model may still have difficulty accurately classifying it. 
+
+Remember, this is a simplified explanation. The actual implementation can be complex and may require a good understanding of machine learning principles.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Unknown count: 3
+Unknown count FORCED: 0

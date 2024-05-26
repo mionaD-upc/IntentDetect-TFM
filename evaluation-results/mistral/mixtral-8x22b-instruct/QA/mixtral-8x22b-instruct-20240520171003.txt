@@ -1,0 +1,27 @@
+# Evaluation of mixtral-8x22b-instruct 
+## Classification report: 
+                   precision    recall  f1-score   support
+
+anomaly detection       0.89      0.85      0.87        20
+   classification       0.40      0.85      0.55        20
+       clustering       1.00      0.70      0.82        20
+      correlation       0.92      0.55      0.69        20
+      forecasting       0.83      0.75      0.79        20
+       regression       0.86      0.60      0.71        20
+          unknown       0.00      0.00      0.00         0
+
+         accuracy                           0.72       120
+        macro avg       0.70      0.61      0.63       120
+     weighted avg       0.82      0.72      0.74       120
+
+## Execution time: 0:09:44.968444 
+Obtaining predictions for class: clustering
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Error (Not able to find label in answer)
+
+[
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Unknown count: 3
+Unknown count FORCED: 1
