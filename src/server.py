@@ -38,7 +38,7 @@ fullPath = ""
 
 
 UPLOAD_FOLDER = './uploads/'
-RESULTS_FOLDER = './entry-results/'
+RESULTS_FOLDER = './results/'
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 

@@ -12,6 +12,7 @@ import sys
 import shutil
 from datetime import datetime
 from graphviz import Digraph
+import nbformat as nbf
 
 
 def preprocess(data_file_path):
@@ -87,6 +88,20 @@ def tpot_pipeline_generator(data_file_path, intent):
         os.makedirs('static/tpot-results/pipelines')
     # Export the best pipeline to a Python script
     tpot.export(f"static/tpot-results/pipelines/tpot_{dataset_name}-{datetime.now().strftime('%Y%m%d%H%M%S')}-{intent}_pipeline.py")
+    with open(f"static/tpot-results/pipelines/tpot_{dataset_name}-{datetime.now().strftime('%Y%m%d%H%M%S')}-{intent}_pipeline.py", 'r') as f:
+        python_code = f.read()
+
+    # Create a new Jupyter notebook
+    nb = nbf.v4.new_notebook()
+
+    nb['cells'] = [nbf.v4.new_code_cell(python_code)]
+
+    if not os.path.exists('./results'):
+        os.makedirs('./results')
+    notebook_path = f"./results/tpot_{dataset_name}-{datetime.now().strftime('%Y%m%d%H%M%S')}-{intent}_pipeline.ipynb"
+    with open(notebook_path, 'w') as f:
+        nbf.write(nb, f)
+    
     y_pred = tpot.predict(X_test)
     # Get the best model
     exctracted_best_model = tpot.fitted_pipeline_.steps[-1][1]
