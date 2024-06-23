@@ -52,6 +52,11 @@ docker build -t intent-detect:latest .
 # run container
 docker run --rm -p 9000:9000 --name='intent-detect-c1' intent-detect:latest
 ```
+Optionally, you can run the container such that your local host is mounted to the Docker container to keep track of input and output files. This way, all input data and results are saved to your local host upon container termination.
+```bash
+# run container
+docker run --rm -p 9000:9000 -v $PWD/src/results:/src/results -v $PWD/src/uploads:/src/uploads --name='intent-detect-c1' intent-detect:latest
+```
 
 If needed you can connect to running Docker container.
 
